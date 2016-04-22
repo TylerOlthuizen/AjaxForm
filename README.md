@@ -6,7 +6,7 @@ Using an Ajax form is a great solution for any type of project and it is very si
 ### Index.html
 Lets start setting up the index.html file. First we will create our form. We want to make sure we have the method set to "post" and the action set properly as well. 
 
-<img width="663" alt="screen shot 2016-04-22 at 12 50 45 am" src="https://cloud.githubusercontent.com/assets/10456029/14734022/ac9de3fe-0824-11e6-9636-dfe98344b5df.png">
+<img width="816" alt="screen shot 2016-04-22 at 1 09 54 am" src="https://cloud.githubusercontent.com/assets/10456029/14734353/174c1408-0827-11e6-980e-fc2d2f0a9ddc.png">
 
 ##Ajax-form.js
 
@@ -18,7 +18,8 @@ Lets start setting up our ajax request. First we want to add a submit event on o
 
 So now that we haven't prevented the form from refreshing, we will need to add our data from our from into “ var ajaxFormData” so we know what data we will have to be passing.
 
-<img width="623" alt="screen shot 2016-04-22 at 12 50 54 am" src="https://cloud.githubusercontent.com/assets/10456029/14734023/ac9e8980-0824-11e6-8099-1e7fb9d36056.png">
+<img width="645" alt="screen shot 2016-04-22 at 1 10 02 am" src="https://cloud.githubusercontent.com/assets/10456029/14734367/3ea17f3e-0827-11e6-898a-14f261c8e66f.png">
+
 
 ####Ajax Function
 
