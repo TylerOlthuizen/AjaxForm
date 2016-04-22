@@ -25,10 +25,11 @@ So now that we haven't prevented the form from refreshing, we will need to add o
 
 jQuery allows us to easy set up our Ajax function. we will need a few things for this function to work. 
 
-type: Define what HTTP verb we will want to use. In our case this is “post”
-url: This will be the url where we want to post (www.mysite/sender.php)
-data: This will be our Ajax data that we created
-dataType: The type of data we expect back from the server
+..type: Define what HTTP verb we will want to use. In our case this is “post”
+..url: This will be the url where we want to post (www.mysite/sender.php)
+..data: This will be our Ajax data that we created
+..dataType: The type of data we expect back from the server
+
 
 <img width="753" alt="screen shot 2016-04-22 at 12 51 09 am" src="https://cloud.githubusercontent.com/assets/10456029/14734024/ac9fe302-0824-11e6-993b-c98d90fc215a.png">
 
