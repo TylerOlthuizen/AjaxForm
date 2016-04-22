@@ -2,19 +2,22 @@
 <html>
 <head>
 	<title>Ajax Form</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="ajax-form.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 	<section>
 		<form class="ajax-form" method="post" action="sender.php" >
-			<div class="form-group">
+			<div class="form-group form-group-name">
 				<label for="Name">Name</label>
 				<input name="name" type="text">
 			</div>
-			<div class="form-group">
+			<div class="form-group form-group-email">
 				<label for="email">Email</label>
 				<input name="email" type="text">
 			</div>
-			<div class="form-group">
+			<div class="form-group form-group-phone">
 				<label for="phone">Phone</label>
 				<input name="phone" type="text">
 			</div>

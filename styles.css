@@ -1,0 +1,41 @@
+.ajax-form {
+	width: 50%;
+	margin-left: 10%;
+	margin-top: 2em;
+}
+
+.form-group {
+	width: 80%;
+	margin-bottom: 1em;
+}
+
+.form-group label {
+	margin-right: 1.5em;
+	font-family: helvetica;
+	font-size: 1.5em;
+	width: 60px;
+	display: inline-block;
+}
+
+
+.form-group input {
+	border: 1.5px solid #444;
+	line-height: 1.5em;
+	border-radius: 2px;
+	background: transparent;
+	width: 40%;
+}
+
+.form-group input[type=submit] {
+	display: inline-block;
+	width: 20%;
+}
+
+.form-group textarea {
+	border: 1.5px solid #444;
+	line-height: 1.5em;
+	border-radius: 2px;
+	background: transparent;
+	width: 60%;
+	height: 120px;
+}
