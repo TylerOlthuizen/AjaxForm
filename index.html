@@ -5,8 +5,25 @@
 </head>
 <body>
 	<section>
-		<form>
-			
+		<form class="ajax-form" method="post" action="sender.php" >
+			<div class="form-group">
+				<label for="Name">Name</label>
+				<input name="name" type="text">
+			</div>
+			<div class="form-group">
+				<label for="email">Email</label>
+				<input name="email" type="text">
+			</div>
+			<div class="form-group">
+				<label for="phone">Phone</label>
+				<input name="phone" type="text">
+			</div>
+			<div class="form-group form-group-textarea">
+				<textarea name="message"></textarea>
+			</div>
+			<div class="form-group">
+				<input type="submit" name="submit" value="submit">
+			</div>
 		</form>
 	</section>
 </body>
