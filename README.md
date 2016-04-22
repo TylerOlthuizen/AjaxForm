@@ -1,7 +1,8 @@
 # AjaxForm
 ## Introduction 
 
-Using an Ajax form is a great solution for any type of project and it is very simple and straight forward. Ajax allows us to dynmacially submit the form and send all the information we need to me processed through a PHP file we will be creating.
+Using an Ajax form is a great solution for any type of project and it is very simple and straight forward. Ajax allows us to dynamically submit the form and send all the information we need to me processed through a PHP file we will be creating.
+
 
 ### Index.html
 Lets start setting up the index.html file. First we will create our form. We want to make sure we have the method set to "post" and the action set properly as well. 
